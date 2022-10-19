@@ -2,6 +2,134 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: #540B51;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 1rem;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+}
+.right-navbar {
+   display: flex;
+}
+.left-navbar {
+   display: flex;
+}
+.left-navbar img {
+   height: 5vh;
+   align-self: center;
+}
+.left-navbar ul {
+   display: flex;
+   justify-content: space-around;
+   list-style: none;
+   gap: 1rem;
+    }
+.left-navbar ul a {
+   text-decoration: none;
+   color: white;
+}
+.right-navbar {
+   gap: 1rem;
+}
+.navbar button {
+   background-color: transparent;
+   border: none;
+}
+header {
+   text-align: center;
+   padding-top: 10vh;
+   background-color: #540B51;
+   color: white;
+}
+header p {
+   font-size: 1rem;
+}
+header h1 {
+   padding: 1rem;
+   font-size: 3rem;
+  }
+  header p span {
+   color: #ECB12F;
+   font-weight: bolder;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: stretch;
+  }
+  .button {
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-size: 1rem;
+    height: 3rem;
+  }
+  .white-button {
+    background-color: white;
+    color: #540B51;
+    padding-right: 230px;
+    padding-left: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .google-button {
+    background-color: #2E71A6;
+    color: white;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 10;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .google-button img {
+    width: 20px;
+    background-color: white;
+    border-radius: 2px;
+    padding: 8px;
+  }
+  .google-button span {
+    align-self:center;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header-screenshot {
+    width: 100vw;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+/*
+Section 2 starts here
+*/
+
 .back-color {
     background-color: #F3EAE2;
 }
