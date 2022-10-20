@@ -1,3 +1,4 @@
+/* ITERATION ONE */
 
 @media (width < 768px) {
 
@@ -122,13 +123,27 @@ header h1 {
     display: flex;
     justify-content: space-evenly;
   }
-  .header-screenshot {
+
+  .headerPicture {
+    background-image: url(../images/hero-product-ui.png);
+    background-repeat: no-repeat;
+    background-position-y: 490px;
+    background-size: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 200px;
+  }
+
+
+  /* .header-screenshot {
     width: 100vw;
     position: relative;
     margin-top: 1rem;
     margin-bottom: 2rem;
-  }
-
+  } */
 /*
 Section 2 starts here
 */
@@ -140,33 +155,48 @@ Section 2 starts here
 .trusted {
     display: flex;
     justify-content: center;
-    padding: 60px;
-    font-size: 50px;
+    padding: 30px;
+    font-size: 25px;
 }
 
 .sponsorshipsOne {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 50px;
     margin: auto;
-    width: auto;
+    width: 1;
+}
+
+.sponsorshipsOne img {
+    width: 150px;
+    margin: auto;
 }
 
 .sponsorshipsTwo {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     padding: 50px;
     margin: auto;
     width: auto;
 }
 
+.sponsorshipsTwo img {
+    width: 100%;
+    margin: auto;
+}
+
 .connect {
     display: flex;
     justify-content: flex-start;
+    background-image: url(../images/connectedness-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-size: 90%;
+    padding-top: 600px
 }
 
 .bring-team-together {
@@ -196,11 +226,22 @@ Section 2 starts here
 .flexibility {
     display: flex;
     justify-content: flex-end;
+    background-image: url(../images/flexibility-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 35px;
+    background-size: 90%;
+    padding-top: 600px
 }
 
 .speed {
     display: flex;
     justify-content: flex-start;
+    background-image: url(../images/speed-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-size: 90%;
+    padding-top: 600px
 }
 
 .move-faster {
@@ -215,6 +256,8 @@ Section 2 starts here
     color: #2E71A6;
     padding-bottom: 30px;
 }
+
+/* teams rely on and percentages */
 
 .teams-percentages {
     padding: 20px;
@@ -248,7 +291,9 @@ Section 2 starts here
 }
 
 .purpleButtonWhiteText {
-    font-size: 40px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 .whiteButtonPurple {
@@ -256,8 +301,8 @@ Section 2 starts here
     justify-content: center;
     background-color: white;
     color: #540B51;
-    padding-right: 355px;
-    padding-left: 355px;
+    padding-right: 260px;
+    padding-left: 260px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-color: #540B51;
@@ -270,7 +315,9 @@ Section 2 starts here
 }
 
 .whiteButtonPurpleText {
-    font-size: 40px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 .userPercentagesMain {
@@ -306,8 +353,8 @@ Section 2 starts here
     justify-content: center;
     background-color: #540B51;
     color: white;
-    padding-right: 365px;
-    padding-left: 365px;
+    padding-right: 200px;
+    padding-left: 200px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-color: #540B51;
@@ -321,8 +368,8 @@ Section 2 starts here
     justify-content: center;
     background-color: white;
     color: #540B51;
-    padding-right: 355px;
-    padding-left: 355px;
+    padding-right: 197px;
+    padding-left: 197px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-color: #540B51;
@@ -426,3 +473,5 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+/* START OF ITERATION 2 */
